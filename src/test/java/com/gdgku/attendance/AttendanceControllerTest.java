@@ -1,6 +1,5 @@
 package com.gdgku.attendance;
 
-import com.gdgku.attendance.AttendanceController.Attendance;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.resttestclient.TestRestTemplate;
