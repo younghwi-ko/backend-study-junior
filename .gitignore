@@ -48,3 +48,23 @@ out/
 
 ### macOS ###
 .DS_Store
+
+### Local credentials and generated files ###
+.env
+.env.*
+!.env.example
+credentials*.json
+secrets/
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.class
+*.log
+hs_err_pid*
+data/
+pgdata/
+target/
+Thumbs.db
+Desktop.ini

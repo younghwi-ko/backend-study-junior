@@ -1,0 +1,42 @@
+# Generated Java files
+out/
+bin/
+build/
+target/
+*.class
+*.log
+hs_err_pid*
+
+# Local PostgreSQL storage and credentials
+data/
+pgdata/
+.env
+.env.*
+!.env.example
+credentials*.json
+secrets/
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+
+# IDE/user-specific files (shared VS Code settings are included)
+.idea/
+*.iml
+.vscode/*
+!.vscode/settings.json
+.classpath
+.project
+.settings/
+
+# OS and archives
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.zip
+*.tmp
+
+# Keep the lecture's pinned JDBC dependency in lib/
+*.jar
+!lib/postgresql-42.7.13.jar
